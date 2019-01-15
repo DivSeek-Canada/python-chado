@@ -8,7 +8,7 @@ $ cd /path/to/repo/folder
 
 $ git clone https://github.com/DivSeek-Canada/python-chado.git
 
-$ pip install chado --no-index --find-links file:///path/to/repo/folder/python-chado
+$ pip install -e python-chado
 ```
 
 [![Build](https://travis-ci.org/galaxy-genome-annotation/python-chado.svg?branch=master)](https://travis-ci.org/galaxy-genome-annotation/python-chado)
